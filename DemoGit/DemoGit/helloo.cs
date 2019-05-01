@@ -13,5 +13,11 @@ namespace DemoGit
            //pull
             return a+b;
         }
-    }
+        public int sub(int a, int b)
+        {
+            //pull
+            return a - b;
+        }
+    
+}
 }
