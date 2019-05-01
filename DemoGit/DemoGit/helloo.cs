@@ -8,13 +8,9 @@ namespace DemoGit
 {
    public class helloo
     {
-        public int add()
+        public int add(int a,int b)
         {
-            int x = 10;
-            int y = 10;
-            int sum = x + y;
-            
-            return sum;
+            return a+b;
         }
     }
 }
