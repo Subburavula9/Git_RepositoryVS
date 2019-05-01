@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace DemoGit
 {
-    class helloo
+   public class helloo
     {
+        public int add()
+        {
+            int x = 10;
+            int y = 10;
+            int sum = x + y;
+            
+            return sum;
+        }
     }
 }
